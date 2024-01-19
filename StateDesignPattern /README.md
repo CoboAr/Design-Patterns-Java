@@ -2,6 +2,12 @@
 
 Implementation of State Design Pattern
 
+State Pattern (Behavioral Pattern):   
+<ul>
+  <li>Intent (GOF): Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.</li>
+  <li>Motivation:sometimes there is an object that can be in one of several states with different behavior in each state.</li>
+</ul>
+
 ## How does it work?
 Objects of this class can be in one of the three states: Red, Yellow, Green. Two operations supported: forward(), backward().      
 State diagram is given below:

@@ -2,6 +2,12 @@
 
 Implementation of Composite design pattern.
 
+Composite Pattern (Structural Pattern):
+<ul>
+  <li>Intent : Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.</li>
+  <li>Motivation:we often must manipulate composite objects exactly the same way we manipulate primitive objects..</li>
+</ul>
+
 ## How does it work?
 
 In a grocery store, there are two kinds of food components—food categories such as “frozen” and food items such as “chicken”. Every food component has a name. Every food item has a price. A food category object can contain zero or more food components. For example, a food category object named “frozen” can contain other food category objects named “meat”, “vegetable” etc.; The “frozen” object can also contain food item objects such as “ice-cream”.      
